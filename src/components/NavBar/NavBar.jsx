@@ -1,5 +1,6 @@
 import { useState } from "react";
 import phi_logo from "../../assets/images/phi-logo.png"
+import React from "react";
 
 const NavBar = () => {
   const [navOpen, setNavOpen] = useState(true)

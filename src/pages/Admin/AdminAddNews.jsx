@@ -1,6 +1,7 @@
 import AdminGoTo from "./AdminGoTo";
 import axios from "axios";
 import config from '../../config.json'
+import React from "react";
 
 const AdminAddNews = () => {
     const handleSubmit = async (event) => {

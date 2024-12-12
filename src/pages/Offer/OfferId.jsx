@@ -6,6 +6,7 @@ import "./OfferId.css";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import config from '../../config.json'
+import React from "react";
 
 const OfferId = () => {
   const [data, setData] = useState();

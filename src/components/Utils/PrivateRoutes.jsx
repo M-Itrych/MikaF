@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import config from "../../config.json"
+import React from "react";
 
 const PrivateRoutes = () =>{
     const [isLoggedIn, setIsLoggedIn] = useState(false);

@@ -5,6 +5,7 @@ import "./News.css";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import config from '../../config.json'
+import React from "react";
 
 const News = () => {
   const [data, setData] = useState();

@@ -1,6 +1,7 @@
 import Footer from "../../components/Footer/Footer";
 import NavBar from "../../components/NavBar/NavBar";
 import "./Dostawcy.css"
+import React from "react";
 
 const Dostawcy = () => {
     const dostawcy = [

@@ -1,3 +1,5 @@
+import React from "react";
+
 const HomeOfferTile = ({ title, text, href }) => (
   <div className="home-offer-tile">
     <h4>{title}</h4>

@@ -3,6 +3,7 @@ import { useEffect, useState, useRef, Fragment } from "react";
 import axios from "axios";
 import config from "../../config.json";
 import AdminGoTo from "./AdminGoTo";
+import React from "react";
 
 const AdminModifyNews = () => {
   const [data, setData] = useState();

@@ -1,4 +1,5 @@
 import phi_logo from "../../assets/images/phi-logo.png"
+import React from "react";
 
 const Footer = () => (
     <section className="footer-section">

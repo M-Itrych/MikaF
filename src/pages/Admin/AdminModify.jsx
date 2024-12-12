@@ -4,6 +4,7 @@ import config from '../../config.json'
 import {useEffect, useState} from "react";
 import "./AdminModify.css"
 import AdminNews from "../../components/Admin/AdminNews";
+import React from "react";
 
 const AdminModify = () => {
   const [data, setData] = useState();

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import config from "../../config.json";
 import axios from "axios";
+import React from "react";
 
 const Contact = ({ bg = false }) => {
   const [checked, setChecked] = useState(false);

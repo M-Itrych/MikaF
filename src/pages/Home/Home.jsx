@@ -9,6 +9,7 @@ import SliderDostawcy from "../../components/Utils/SliderDostawcy";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import config from '../../config.json'
+import React from "react";
 
 const Home = () => {
   const [offers, setOffers] = useState();

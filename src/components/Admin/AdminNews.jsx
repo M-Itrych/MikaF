@@ -1,5 +1,6 @@
 import axios from "axios";
 import config from "../../config.json";
+import React from "react";
 
 const AdminNews = ({img, date, title, desc, id}) => {
   const deleteNews = async () => {

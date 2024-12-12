@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import config from '../../config.json'
+import React from "react";
 
 const NewsId = () => {
   const [data, setData] = useState();

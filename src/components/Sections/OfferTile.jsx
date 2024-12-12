@@ -1,4 +1,5 @@
 import "./OfferComponent.css";
+import React from "react";
 
 function OfferTile({text, img, title, btn = false, reverse = false, href = "/", bg,}) {
     console.log("Rendering parent component with OfferTile");
