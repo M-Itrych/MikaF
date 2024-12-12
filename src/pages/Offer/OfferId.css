@@ -1,0 +1,104 @@
+.offerPage-wrapper{
+    img {
+        max-width: 30rem;
+        object-fit: cover;
+    }
+    .offerPage-header {
+        display: flex;
+        padding: 5rem 12.5rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        align-self: stretch;
+        img {
+            border-radius: 0.5rem;
+        }
+        .offerPage-text {
+            color: var(--p, rgba(15, 23, 42, 0.75));
+            /* P */
+            font-family: Inter;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.75rem; /* 175% */
+            align-self: stretch;
+        }
+        h1{
+            color: var(--base-black, #000);
+
+            text-align: center;
+            /* H1 */
+            font-family: Urbanist;
+            font-size: 2.5rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 135%;
+        }
+    }
+    .offerPage-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5rem 12.5rem;
+        gap: var(--Spacing-24PX, 1.5rem);
+        h2 {
+            max-width: 58.5625rem;
+            color: var(--base-black, #000);
+            text-align: center;
+            /* H2 */
+            font-family: Urbanist;
+            font-size: 3rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 140%; /* 4.2rem */
+            letter-spacing: -0.0225rem;
+        }
+        p {
+            max-width: 44.625rem;
+            color: rgba(0, 0, 0, 0.70);
+
+            text-align: center;
+            /* P */
+            font-family: Inter;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.75rem; 
+        }
+        a {
+            color: var(--base-white, #FFF);
+            font-family: Urbanist;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 1.5rem; /* 150% */
+            display: flex;
+            padding: var(--Spacing-8PX, 0.5rem) var(--Spacing-32PX, 2rem);
+            justify-content: center;
+            align-items: center;
+            border-radius: var(--Spacing-8PX, 0.5rem);
+            background: var(--Brand, #F97316);
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .offerPage-wrapper{
+        .offerPage-header{
+            padding: 5rem;
+            img {
+                background-color: rgba(210, 210, 210, 0.20);
+                display: flex;
+                width: 20rem;
+                height: 100%;
+                object-fit: contain;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+        .offerPage-contact{
+            padding: 5rem;
+        }
+    }
+}

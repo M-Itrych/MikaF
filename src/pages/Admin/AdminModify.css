@@ -1,0 +1,115 @@
+.admin-modify {
+  background-color: rgb(72, 82, 92);
+  min-height: 100vh;
+  padding: 5rem 10rem;
+  max-width: 100%;
+
+  .admin-modify-news {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem 0;
+    gap: 3rem;
+  }
+
+  h2 {
+    text-align: center;
+    color: #fff;
+  }
+  .dd-goBackBtn {
+    background-color: whitesmoke;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #000;
+    text-align: center;
+    font-size: 1.5rem;
+    border: none;
+    &:hover,
+    &:active {
+      background-color: antiquewhite;
+    }
+  }
+
+  .admin-news-tile {
+    display: flex;
+    padding: var(--Spacing-32PX, 2rem);
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    flex: 1 0 0;
+    border-radius: 0.3125rem;
+    background: #fff;
+    .admin-news-tile-delete {
+      border: none;
+      padding: 0.5rem;
+      border-radius: 0.3125rem;
+      background: #f80;
+      color: #fff;
+      font-family: Urbanist;
+      font-size: 1rem;
+      font-weight: bold;
+      align-self: flex-start;
+      cursor: pointer;
+      &:hover {
+        background: #6a3700;
+      }
+    }
+    img {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 0.5rem;
+    }
+
+    p {
+      align-self: stretch;
+      color: var(--slate-500, #64748b);
+      /* PARAGRAPH/p-m-16pt */
+      font-family: Inter;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%; /* 1.5rem */
+    }
+
+    h4 {
+      align-self: stretch;
+      color: var(--slate-900, #0f172a);
+      /* H4 */
+      font-family: Urbanist;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%; /* 2.8rem */
+      letter-spacing: -0.01rem;
+    }
+
+    a {
+      display: flex;
+      padding: var(--Spacing-8PX, 0.5rem) var(--Spacing-32PX, 2rem);
+      justify-content: center;
+      align-items: center;
+      border-radius: var(--Spacing-8PX, 0.5rem);
+      background: var(--brand, #f97316);
+      color: var(--base-white, #fff);
+      font-family: Urbanist;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 1.5rem;
+      align-self: flex-start;
+    }
+  }
+}
+
+.admin-modify-input {
+  padding: 0.5rem 0.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: none;
+  width: 100%;
+}
